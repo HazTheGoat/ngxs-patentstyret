@@ -1,0 +1,9 @@
+<h1>Contact management app</h1>
+<app-contact></app-contact>
+
+
+<ul>
+  <li *ngFor="let contact of contacts | async">
+    {{ contact.name }}
+  </li>
+</ul>
